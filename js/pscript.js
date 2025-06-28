@@ -2,13 +2,13 @@
 function updateNavbarBrand() {
     const navbarBrand = document.querySelector(".navbar-brand");
     navbarBrand.innerHTML = '<span style="color: red;">Fast</span>DramaHD'; // Update brand text with HTML
-    navbarBrand.href = "https://www.fastdramahd.com/"; // Update brand link
+    navbarBrand.href = "https://www.fastdrama.icu/"; // Update brand link
 }
 
 // Function to dynamically update header links
 function updateHeaderLinks() {
     const headerLinks = [
-        { text: "Home", href: "https://www.fastdramahd.com/" },
+        { text: "Home", href: "https://www.fastdrama.icu/" },
         { text: "About", href: "#about" },
         { text: "Docs", href: "#docs" },
         { text: "Terms", href: "#terms" },
@@ -29,7 +29,7 @@ function updateHeaderLinks() {
 // Function to dynamically update footer links
 function updateFooterLinks() {
     const footerLinks = [
-        { text: "Home", href: "https://www.fastdramahd.com/" },
+        { text: "Home", href: "https://www.fastdrama.icu/" },
         { text: "About", href: "#about" },
         { text: "Docs", href: "#docs" },
         { text: "Terms", href: "#terms" },
